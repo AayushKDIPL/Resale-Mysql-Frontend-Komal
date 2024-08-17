@@ -11,8 +11,8 @@ function App() {
         <BrowserRouter>
             <Routes>
                 {/* <Route path="/" element={<City />}/> */}
-                <Route path="/" element={<AdminHome />}/>
-                <Route path="/view" element={<Inventory />} />
+                <Route path="/admin" element={<AdminHome />}/>
+                <Route path="/" element={<Inventory />} />
                 <Route path="/login" element={<Login />} />
             </Routes>
         </BrowserRouter>
